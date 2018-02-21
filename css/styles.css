@@ -1,0 +1,21 @@
+
+
+th, td{
+	border-bottom: 3px dashed #d0d0d0;
+
+}
+
+
+#area-mensagens{
+	border:1px solid #00ff00;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.destaque{
+	text-transform: uppercase;
+	font-size: 30px;
+	color: #ff0000;
+}
