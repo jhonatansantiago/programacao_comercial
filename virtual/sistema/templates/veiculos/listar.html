@@ -1,0 +1,16 @@
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Lista de veículos cadastrados</title>
+	</head>
+	<body>
+		<ul>
+			{% for veiculo in object_list %}
+				<li>
+					{{ veiculo }}
+				</li>
+			{% endfor %}
+		</ul>
+		<p>Total: {{ total }} </p> 
+	</body>
+</html>
